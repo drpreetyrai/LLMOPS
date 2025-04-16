@@ -1,0 +1,13 @@
+prefix=/Users/preetyrai/Desktop/llmops/env
+exec_prefix=/Users/preetyrai/Desktop/llmops/env
+libdir=/Users/preetyrai/Desktop/llmops/env/lib
+sharedlibdir=/Users/preetyrai/Desktop/llmops/env/lib
+includedir=/Users/preetyrai/Desktop/llmops/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
